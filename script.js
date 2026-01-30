@@ -110,7 +110,7 @@ class Game {
                 {stat: "hunger", amount: -10},
                 {stat: "energy", amount: 40}
             ], 
-            "Your pet had a lot of fun!"
+            "Your pet had a great nap!"
         );
         this.actions.push(rest);
 
