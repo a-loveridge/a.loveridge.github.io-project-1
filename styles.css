@@ -2,27 +2,41 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: black;
     color: white;
+    text-align: center;
 }
 
-.container {
+.content {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: .1rem;
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 40px;
+    margin: 0;
 }
 
 p {
+    font-size: 25px;
+}
+
+.buddy {
+    font-size: 60px;
+    margin: 0;
+}
+
+#message {
     font-size: 30px;
+    margin: 0 0 1rem 0;
 }
 
 .buttons {
     display: grid;
     grid-template-columns: 300px 300px;
     gap: 1rem;
+    margin: 0 auto;
 }
 
 button {
@@ -40,4 +54,5 @@ button {
 button:hover {
     background-color: rgb(66, 167, 255);
     transform: scale(1.02);
+    cursor: pointer;
 }

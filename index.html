@@ -1,25 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 1</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="container">
-        <h1>Title</h1>
-        <p id="text">Text</p>
-        <div id="options" class="buttons">
-            <button class="option">Option 1</button>
-            <button class="option">Option 2</button>
-            <button class="option">Option 3</button>
-            <button class="option">Option 4</button>
-        </div>
+    <div class="content">
+        <h1>Virtual Pet</h1>
+        <h2>Meet Buddy!</h2>
+        <p class="buddy">🐕</p>
+
         <div class="stats">
-            <p>Health: <span id="health">100</span></p>
-            <p>Inventory: <span id="inventory">None</span></p>
+            <div class="stat">
+                <p>Hunger: <span id="hunger">50</span></p>
+            </div>
+            <div class="stat">
+                <p>Happiness: <span id="happiness">50</span></p>
+            </div>
+            <div class="stat">
+                <p>Energy: <span id="energy">50</span></p>
+            </div>
+        </div>
+
+        <p id="message" class="message">Take care of your pet!</p>
+
+        <div class="buttons">
+            <button class="action">Feed Pet</button>
+            <button class="action">Play with Pet</button>
+            <button class="action">Let Pet Rest</button>
+            <button class="action">Give Special Treat</button>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
